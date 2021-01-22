@@ -1,4 +1,4 @@
-package com.cloud.stream.kafka.processor;
+package com.cloud.stream.kafka.producer;
 
 import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.integration.annotation.Gateway;

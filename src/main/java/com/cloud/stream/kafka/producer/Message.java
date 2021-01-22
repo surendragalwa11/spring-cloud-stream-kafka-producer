@@ -1,4 +1,4 @@
-package com.cloud.stream.kafka.processor;
+package com.cloud.stream.kafka.producer;
 
 import lombok.Data;
 import lombok.AllArgsConstructor;

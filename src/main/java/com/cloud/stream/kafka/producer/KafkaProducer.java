@@ -1,4 +1,4 @@
-package com.cloud.stream.kafka.processor;
+package com.cloud.stream.kafka.producer;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/send")
-public class KafkaProcessor {
+public class KafkaProducer {
     private final ProcessRequest processRequest;
 
     @PostMapping
